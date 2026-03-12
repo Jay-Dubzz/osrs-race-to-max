@@ -108,7 +108,7 @@ if st.button("Compare"):
     st.write(f"{user1} is {df_user1_display[user1 + "'s Hours to Max"].sum()} hours away from maxing")
     st.write(f"{user2} is {df_user2_display[user2 + "'s Hours to Max"].sum()} hours away from maxing")
 
-    if df_user1_display[user1 + "'s Hours to Max"].sum() == 0 & df_user2_display[user2 + "'s Hours to Max"].sum() == 0:
+    if df_user1_display[user1 + "'s Hours to Max"].sum() == 0 and df_user2_display[user2 + "'s Hours to Max"].sum() == 0:
         st.write(f"There is no race, both players are already maxed")
     elif df_user1_display[user1 + "'s Hours to Max"].sum() == 0:
         st.write(f"{user1} has won the race to max!")
