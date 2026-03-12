@@ -365,7 +365,7 @@ class Hiscores(object):
         self.__parseBountyHunter()
         self.__parseClues()
         self.__parseLMS()
-        self.__parseBosses()
+        #self.__parseBosses()
 
 
     def skill(self, skill, stype: str = 'level'):
